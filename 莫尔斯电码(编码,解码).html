@@ -1,0 +1,240 @@
+<html>
+	<head>
+		<title>黄甜专用 [莫尔斯电码转换]</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	</head>
+	<body>
+		<div class="mod-panel">
+		<div class="hd">
+			<h1>摩斯电码转换</h1>
+			<p>不支持中文,中文电报是把汉字转数字再莫尔斯编码.支持A-Z,0-9,其他部分特殊字符(下面表格中).</p>
+		</div>
+		<div class="bd">
+			<p>英文字母：</p>
+			<p>支持</p>
+			<p>
+				<textarea id="contents" style="width: 500px; height: 100px">I-LOVE-YOU.</textarea>
+			</p>
+			<p>
+				<button class="input-button">转换为摩斯电码 ↓</button>
+				<button class="input-button">转换为英文字母 ↑</button>
+			</p>
+			<p>摩斯电码：(用空格分隔摩斯电码)</p>
+			<p>短信号"."读"嘀",长信号"-"读"哒".电视剧那些情报人员这样发电报的.只不过用的军用编码表,只有情报人员知道,这个是民用吗,世界皆知.</p>
+			<p>
+				<textarea id="result" style="width: 500px; height: 100px"></textarea>
+			</p>
+		</div>
+		<div class="ft">
+			<div class="about">
+				<p>
+				摩尔斯电码（又译为摩斯电码，Morse code）是一种时通时断的信号代码，这种信号代码通过不同的排列顺序来表达不同的英文字母、数字和标点符号等。它由美国人艾尔菲德·维尔发明，当时他正在协助Samuel Morse进行摩尔斯电报机的发明（1835年）。在今天，国际摩尔斯电码依然被使用着。
+				</p>
+				<p>
+				在英文字母输入区域输入英文字母，单击转换为摩尔斯，将英文翻译为摩尔斯代码。在摩斯电码区域输入摩斯电码，单击转换为英文字母，即可以将莫尔斯密码转换为英文单词。使用该工具，可以实现摩斯密码的在线翻译，传递你的神秘信息。摩斯代码默认采用空格分隔，为了在网页或文件中显示方便，许多摩斯采用单斜杠/进行分隔，在你单击转换为摩尔斯按钮前进行选择。下面是摩尔斯电码表。
+				</p>
+				<p>
+				中文电码表采用了四位阿拉伯数字作代号，简称“四码电报”，从0001到9999按四位数顺序排列，用四位数字表示最多一万个汉字、字母和符号。汉字先按部首，后按笔划排列。字母和符号放到电码表的最尾。后来由于一万个汉字不足以应付户籍管理的要求，又有第二字面汉字的出现。在香港，两个字面都采用同一编码，由输入员人手选择字面；在台湾，第二字面的汉字会在开首补上“1”字，变成5个数字的编码。
+				</p>
+				<h3>一、26个字母的摩斯密码表</h3>
+				<table border="1" cellspacing="0" cellpadding="0">
+					<tbody>
+						<tr>
+							<th width="8%"><strong>字符</strong></th>
+							<td width="17%"><strong>电码符号</strong></td>
+							<th width="8%"><strong>字符</strong></th>
+							<td width="17%"><strong>电码符号</strong></td>
+							<th width="8%"><strong>字符</strong></th>
+							<td width="17%"><strong>电码符号</strong></td>
+							<th width="8%"><strong>字符</strong></th>
+							<td width="17%"><strong>电码符号</strong></td>
+						</tr>
+						<tr>
+							<th>A</th>
+							<td>．━</td>
+							<th>B</th>
+							<td>━ ．．．</td>
+							<th>C</th>
+							<td>━ ．━ ．</td>
+							<th>D</th>
+							<td>━ ．．</td>
+						</tr>
+						<tr>
+							<th>E</th>
+							<td>．</td>
+							<th>F</th>
+							<td>．．━ ．</td>
+							<th>G</th>
+							<td>━ ━ ．</td>
+							<th>H</th>
+							<td>．．．．</td>
+						</tr>
+						<tr>
+							<th>I</th>
+							<td>．．</td>
+							<th>J</th>
+							<td>．━ ━ ━</td>
+							<th>K</th>
+							<td>━ ．━</td>
+							<th>L</th>
+							<td>．━ ．．</td>
+						</tr>
+						<tr>
+							<th>M</th>
+							<td>━ ━</td>
+							<th>N</th>
+							<td>━ ．</td>
+							<th>O</th>
+							<td>━ ━ ━</td>
+							<th>P</th>
+							<td>．━ ━ ．</td>
+						</tr>
+						<tr>
+							<th>Q</th>
+							<td>━ ━ ．━</td>
+							<th>R</th>
+							<td>．━ ．</td>
+							<th>S</th>
+							<td>．．．</td>
+							<th>T</th>
+							<td>━</td>
+						</tr>
+						<tr>
+							<th>U</th>
+							<td>．．━</td>
+							<th>V</th>
+							<td>．．．━</td>
+							<th>W</th>
+							<td>．━ ━</td>
+							<th>X</th>
+							<td>━ ．．━</td>
+						</tr>
+						<tr>
+							<th>Y</th>
+							<td>━ ．━ ━</td>
+							<th>Z</th>
+							<td>━ ━ ．．</td>
+							<th>　</th>
+							<td>　</td>
+							<th>　</th>
+							<td>　</td>
+						</tr>
+					</tbody>
+				</table>
+				<h3>二、数字的摩斯密码表</h3>
+				<table border="" cellspacing="0" cellpadding="0">
+					<tbody>
+						<tr>
+							<th width="8%"><strong>字符</strong></th>
+							<td width="17%"><strong>电码符号</strong></td>
+							<th width="8%"><strong>字符</strong></th>
+							<td width="17%"><strong>电码符号</strong></td>
+							<th width="8%"><strong>字符</strong></th>
+							<td width="17%"><strong>电码符号</strong></td>
+							<th width="8%"><strong>字符</strong></th>
+							<td width="17%"><strong>电码符号</strong></td>
+						</tr>
+						<tr>
+							<th>0</th>
+							<td>━ ━ ━ ━ ━</td>
+							<th>1</th>
+							<td>．━ ━ ━ ━</td>
+							<th>2</th>
+							<td>．．━ ━ ━</td>
+							<th>3</th>
+							<td>．．．━ ━</td>
+						</tr>
+						<tr>
+							<th>4</th>
+							<td>．．．．━</td>
+							<th>5</th>
+							<td>．．．．．</td>
+							<th>6</th>
+							<td>━ ．．．．</td>
+							<th>7</th>
+							<td>━ ━ ．．．</td>
+						</tr>
+						<tr>
+							<th>8</th>
+							<td>━ ━ ━ ．．</td>
+							<th>9</th>
+							<td>━ ━ ━ ━ ．</td>
+							<th>　</th>
+							<td>　</td>
+							<th>　</th>
+							<td>　</td>
+						</tr>
+					</tbody>
+				</table>
+				<h3>三、标点符号的摩斯密码表</h3>
+				<table border="1" cellspacing="0" cellpadding="0">
+					<tbody>
+						<tr>
+							<th width="8%"><strong>字符</strong></th>
+							<td width="17%"><strong>电码符号</strong></td>
+							<th width="8%"><strong>字符</strong></th>
+							<td width="17%"><strong>电码符号</strong></td>
+							<th width="8%"><strong>字符</strong></th>
+							<td width="17%"><strong>电码符号</strong></td>
+							<th width="8%"><strong>字符</strong></th>
+							<td width="17%"><strong>电码符号</strong></td>
+						</tr>
+						<tr>
+							<th title="句号">.</th>
+							<td title="句号">．━ ．━ ．━</td>
+							<th title="冒号">:</th>
+							<td title="冒号">━ ━ ━ ．．．</td>
+							<th title="逗号">,</th>
+							<td title="逗号">━ ━ ．．━ ━</td>
+							<th title="分号">;</th>
+							<td title="分号">━ ．━ ．━ ．</td>
+						</tr>
+						<tr>
+							<th title="问号">?</th>
+							<td title="问号">．．━ ━ ．．</td>
+							<th title="等号">=</th>
+							<td title="等号">━ ．．．━</td>
+							<th title="省略符">'</th>
+							<td title="省略符">．━ ━ ━ ━ ．</td>
+							<th title="斜线">/</th>
+							<td title="斜线">━ ．．━ ．</td>
+						</tr>
+						<tr>
+							<th title="叹号">!</th>
+							<td title="叹号">━ ．━ ．━ ━</td>
+							<th title="连字号">━ </th>
+							<td title="连字号">━ ．．．．━</td>
+							<th title="下划线">_</th>
+							<td title="下划线">．．━ ━ ．━</td>
+							<th title="双引号">"</th>
+							<td title="双引号">．━ ．．━ ．</td>
+						</tr>
+						<tr>
+							<th title="前括号">(</th>
+							<td title="前括号">━ ．━ ━ ．</td>
+							<th title="后括号">)</th>
+							<td title="后括号">━ ．━ ━ ．━</td>
+							<th title="美元">$</th>
+							<td title="美元">．．．━ ．．━</td>
+							<th title="">&amp;</th>
+							<td title="">． ．．．</td>
+						</tr>
+						<tr>
+							<th title="">@</th>
+							<td title="">．━ ━ ．━ ．</td>
+							<th>　</th>
+							<td>　</td>
+							<th>　</th>
+							<td>　</td>
+							<th>　</th>
+							<td>　</td>
+						</tr>
+					</tbody>
+				</table>								
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript" src="./static/common.js"></script>
+	<script type="text/javascript" src="./static/index.js"></script>
+</body>
+</html>
